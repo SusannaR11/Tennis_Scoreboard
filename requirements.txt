@@ -1,0 +1,6 @@
+streamlit
+pandas
+pandas[html] / xml html5lib
+
+run the project from project directory: 
+"Tennis_Scoreboard_BV_original/streamlit run tennis_ui.py"

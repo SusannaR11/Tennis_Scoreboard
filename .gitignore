@@ -1,0 +1,40 @@
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.egg
+*.egg-info/
+dist/
+build/
+
+# --- Virtual envs ---
+.venv/
+env/
+venv/
+uv/
+.uv/
+
+# --- Mac system files ---
+.DS_Store
+
+# --- Jupyter/Notebooks ---
+.ipynb_checkpoints/
+
+# --- IDE/editor config ---
+.vscode/
+.idea/
+
+# --- Streamlit ---
+.streamlit/
+*.streamlit-*
+
+# --- Logs and temp ---
+*.log
+*.tmp
+
+# --- CSVs or data (maybe) ---
+# data/*.csv
+
