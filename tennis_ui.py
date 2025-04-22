@@ -8,7 +8,10 @@ st.title("🎾 Bilvision Cup")
 st.title("Tennis Scoreboard")
 
 # ---- Player pool from CSV-files----#
-players = ['- Select from dropdown -', 'Roger Federer', 'Rafael Nadal', 'Novak Djokovic', 'Serena Williams', 'Steffi Graf', 'Martina Navratilova']
+#players = ['- Select from dropdown -', 'Roger Federer', 'Rafael Nadal', 'Novak Djokovic', 'Serena Williams', 'Steffi Graf', 'Martina Navratilova']
+male_player_path = "data/male_players.csv"
+male_players_from_csv = pd.read_csv(male_player_path).squeeze().tolist()
+players = [' - Select from dropdown - '] + male_players_from_csv
 
 #--- init session state -----#
 for key in ["player_a", "player_b"]:
