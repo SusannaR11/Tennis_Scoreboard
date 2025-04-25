@@ -1,6 +1,6 @@
 streamlit
 pandas
-pandas[html] / xml html5lib
+pandas[html] / xml html5lib if using wiki dataset
 
 run the project from project directory: 
 "Tennis_Scoreboard_BV_original/streamlit run tennis_ui.py"
